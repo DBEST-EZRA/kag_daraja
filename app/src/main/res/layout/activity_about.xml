@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".About">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Kenya Assemblies, Urban affairs revolve around policies, housing, administration and planning of the urban centres. The urban areas form stages where crime takes place. It is essential to study the urban environment and planning to help in creating safer urban communities (Home Office, 1999). Creating a sustainable urban community will help in countering the spread of crime. A sustainable community is organized and protected from crimes. Urban places have been experiencing high crime rates. Poor planning has been paving way for the criminals to grow and conduct their activities. This has been happening because of the safety gaps created in the system. This paper tries to focus on the strategies, policies and developmental structures that have been implemented to promote safety in the urban setting." />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:text="Kenya Assemblies, Urban affairs revolve around policies, housing, administration and planning of the urban centres. The urban areas form stages where crime takes place. It is essential to study the urban environment and planning to help in creating safer urban communities (Home Office, 1999). Creating a sustainable urban community will help in countering the spread of crime. A sustainable community is organized and protected from crimes. Urban places have been experiencing high crime rates. Poor planning has been paving way for the criminals to grow and conduct their activities. This has been happening because of the safety gaps created in the system. This paper tries to focus on the strategies, policies and developmental structures that have been implemented to promote safety in the urban setting." />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:text="Kenya Assemblies, we are very excited on the ongoing project to safeguard our core and moral values and the community support that has been implemented all over the sanctuary place Urban affairs revolve around policies, housing, administration and planning of the urban centres. The urban areas form stages where crime takes place. It is essential to study the urban environment and planning to help in creating safer urban communities (Home Office, 1999). Creating a sustainable urban community will help in countering the spread of crime. A sustainable community is organized and protected from crimes. Urban places have been experiencing high crime rates. Poor planning has been paving way for the criminals to grow and conduct their activities. This has been happening because of the safety gaps created in the system. This paper tries to focus on the strategies, policies and developmental structures that have been implemented to promote safety in the urban setting." />
+        </LinearLayout>
+    </ScrollView>
+
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/back_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="40dp"-->
+<!--        android:layout_marginBottom="40dp"-->
+<!--        android:clickable="true"-->
+<!--        android:focusable="true"-->
+<!--        app:backgroundTint="#E80D0D"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:srcCompat="@drawable/ic_baseline_arrow_back_24"-->
+<!--        tools:ignore="SpeakableTextPresentCheck" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

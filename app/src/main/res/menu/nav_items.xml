@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="About Us"/>
+
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_baseline_notes_24"
+            android:title="Notes"/>
+
+        <item
+            android:id="@+id/nav_library"
+            android:icon="@drawable/ic_baseline_library_books_24"
+            android:title="Library"/>
+
+        <item
+            android:id="@+id/nav_other_apps"
+            android:icon="@drawable/ic_baseline_church_24"
+            android:title="Other Services"/>
+
+        <item android:title="Departments">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_mf"
+                    android:icon="@drawable/ic_baseline_man_24"
+                    android:title="Men Fellowship"/>
+
+                <item
+                    android:id="@+id/nav_wwk"
+                    android:icon="@drawable/ic_baseline_woman_24"
+                    android:title="WWK"/>
+
+                <item
+                    android:id="@+id/nav_youths"
+                    android:icon="@drawable/ic_baseline_workspaces_24"
+                    android:title="Youths"/>
+
+                <item
+                    android:id="@+id/nav_teens"
+                    android:icon="@drawable/ic_baseline_directions_walk_24"
+                    android:title="Teens"/>
+
+                <item
+                    android:id="@+id/nav_children"
+                    android:icon="@drawable/ic_baseline_child_care_24"
+                    android:title="Children"/>
+
+            </menu>
+
+        </item>
+
+        <item android:title="Others">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_support"
+                    android:icon="@drawable/ic_baseline_volunteer_activism_24"
+                    android:title="Support Us"/>
+
+                <item
+                    android:id="@+id/nav_feedback"
+                    android:icon="@drawable/ic_baseline_feedback_24"
+                    android:title="Feedback"/>
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="Share"/>
+
+                <item
+                    android:id="@+id/nav_rate"
+                    android:icon="@drawable/ic_baseline_star_rate_24"
+                    android:title="Rate Us"/>
+
+            </menu>
+
+        </item>
+
+    </group>
+
+
+</menu>
